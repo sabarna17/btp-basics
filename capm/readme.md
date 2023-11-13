@@ -88,4 +88,7 @@ You can try to click on Preview and see the sample application.
 
 You need to choose the option with `cds watch`
 
+6. Then click on `Open Page Map`, here we can create the UI5 page designs -
+![image](https://github.com/sabarna17/btp-basics/assets/39834671/cf6fd31d-1e11-48ed-b3ab-a3369061b8ea)
 
+7. 
