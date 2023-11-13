@@ -178,15 +178,35 @@ Try to edit a single entry and save it directly, you can see the Purchase Requis
 1. Add a SQLite DB for your in-memory data persistence.
    `npm add @cap-js/sqlite -D`
 2. Then execute the below command to deploy the data in local sqlitedb -
-   `cds deploy --to sqlite:my.sqlite`
+   `cds deploy --to sqlite:db/my.swift.db`
 
 Now you will be able to see a new file created, marked with an arrow. Also use the command `sqlite3 my.sqlite .dump` to see the sql operation dumps.
 ![image](https://github.com/sabarna17/btp-basics/assets/39834671/9d318b93-3096-44d6-9e38-48b310d40375)
 
-3. Use the command `npm i passport @sap/xssec` to install depencencies.
+3. Add the below code in `package.json`:
+   ```
+   "cds": {
+    "requires": {
+      "db": {
+        "kind": "sqlite",
+        "credentials": {
+          "database": "db/my.swift.db"
+        }
+      },
+      "auth": {
+        "kind": "basic",
+        "users": {
+          "sabarna17": {
+            "password": "sapbtpcapm2023"
+          }
+        }
+      }
+    }
+   ```
 
 The next step is deploying your application to the SAP BTP Cloud Foundry Environment.
-The api endpoint for CF environment can be found in BTP Cockpit -
+4. The api endpoint for CF environment can be found in BTP Cockpit -
+
 ![image](https://github.com/sabarna17/btp-basics/assets/39834671/7c82c628-eafa-4618-bfea-adf9a7b126fc)
 
 5. Use command `cf login -a https://api.cf.us10-001.hana.ondemand.com/` in BAS terminal.
