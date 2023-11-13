@@ -3,7 +3,7 @@ This is a Sample CAPM Project in SAP BTP landscape for Clound Foundry Environmen
 - [Create CAPm Backend](https://github.com/sabarna17/btp-basics/blob/main/capm/readme.md#create-capm-backend)
 - [Design UI for the CAP application](https://github.com/sabarna17/btp-basics/blob/main/capm/readme.md#design-ui-for-the-cap-application)
 - [Add Custom Logics in CAPM Events](https://github.com/sabarna17/btp-basics/blob/main/capm/readme.md#add-custom-logics-in-capm-events)
-- Deploy your application in BTP 
+- Deploy your application in BTP
 
 ## Create CAPM backend:
 **Overview** 
@@ -168,3 +168,14 @@ The Application screens are -
 This above logic will default the Purchase Requisition description while changing / adding the entry.
 Try to edit a single entry and save it directly, you can see the Purchase Requisition Text will be defaulted as below - 
 ![image](https://github.com/sabarna17/btp-basics/assets/39834671/e32d5822-279b-4f89-a21a-9dce5eae9ece)
+
+## Deploy your application in BTP
+   **Note**
+   *This is not a production scenario. Hence used SQLite for demo purpose. 
+   For Production enviroment, use PostgreSQL or SAP HANA DB and create connections with package.json file.
+   Go through this [url](https://cap.cloud.sap/docs/get-started/in-a-nutshell#deploying-persistent-databases) for further details.*
+   
+1. Add a SQLite DB for your in-memory data persistancy.
+   `npm add @cap-js/sqlite -D`
+2. Then execute the below command to deploy the data in local sqlitedb -
+   `cds deploy --to sqlite:my.sqlite`
