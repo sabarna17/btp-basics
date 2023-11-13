@@ -6,6 +6,9 @@ This is a Sample CAPM Project in SAP BTP landscape for Clound Foundry Environmen
 - Deploy your application in BTP 
 
 ## Create CAPM backend:
+**Overview** 
+Create a backend data model to store the data.
+
 1. Create a blank CAPM Template using `cds init purchase-req-importance`
 2. Create a file `schema.cds` in the folder `db` and add the below script
   ```js
@@ -67,3 +70,16 @@ This is a Sample CAPM Project in SAP BTP landscape for Clound Foundry Environmen
    ```
 8. Now Execute the ODATA entities and see the outptut `/odata/v4/processor/PRCriticality`, `/odata/v4/processor/Urgency`
 
+## Design UI for the CAP application
+**Overview** 
+Create UI patterns and use predefined floorplans
+
+1. Goto `View > Command Palette` and then select `Fiori: Open Application Generator`
+2. Choose `List Report Page` and click on **Next**
+3. Then select the below options for fields *Data Source* and *Choose your CAPM Project*. Then click on **Next**.
+   ![image](https://github.com/sabarna17/btp-basics/assets/39834671/02e90b9d-6459-4c3e-b972-29a2a22a838d)
+4. Set `PRCriticality` as Main Entity.
+5. Then set the below attributes and click on **Finish**
+   ![image](https://github.com/sabarna17/btp-basics/assets/39834671/db57d5f2-a27b-4bf8-ae8b-39157e62a0b8)
+
+Now you have a cool low-code environment to develop a business-standard Fiori UI application.
