@@ -2,7 +2,7 @@ This is a Sample CAPM Project in SAP BTP landscape for Clound Foundry Environmen
 
 - Create CAPm Backend
 - Design UI for the CAP application
-- Add S4 HANA onpremise ODATA
+- Add Custom Logics in CAPM Events
 - Deploy your application in BTP 
 
 ## Create CAPM backend:
