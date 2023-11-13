@@ -3,7 +3,7 @@ This is a Sample CAPM Project in SAP BTP landscape for Clound Foundry Environmen
 - [Create CAPm Backend](https://github.com/sabarna17/btp-basics/blob/main/capm/readme.md#create-capm-backend)
 - [Design UI for the CAP application](https://github.com/sabarna17/btp-basics/blob/main/capm/readme.md#design-ui-for-the-cap-application)
 - [Add Custom Logics in CAPM Events](https://github.com/sabarna17/btp-basics/blob/main/capm/readme.md#add-custom-logics-in-capm-events)
-- Deploy your application in BTP
+- [Deploy your application in BTP](https://github.com/sabarna17/btp-basics/blob/main/capm/readme.md#deploy-your-application-in-btp)
 
 ## Create CAPM backend:
 **Overview** 
