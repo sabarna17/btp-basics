@@ -131,3 +131,11 @@ Now goto the app `/prcriticality/webapp/index.html?sap-ui-xx-viewCache=false` an
 Now right click on the main application and click on preview to launch the application.
 ![image](https://github.com/sabarna17/btp-basics/assets/39834671/d72dff69-0c5b-45ec-b762-d69606bfbc35)
 
+The Application screens are - 
+**List Page - **
+![image](https://github.com/sabarna17/btp-basics/assets/39834671/bee49ae0-9c5c-4f37-af3f-ecb2386636de)
+
+**Object Page - **
+![image](https://github.com/sabarna17/btp-basics/assets/39834671/f2d97c83-04f2-49ee-899b-7a5a5be93de5)
+
+
