@@ -91,4 +91,9 @@ You need to choose the option with `cds watch`
 6. Then click on `Open Page Map`, here we can create the UI5 page designs -
 ![image](https://github.com/sabarna17/btp-basics/assets/39834671/cf6fd31d-1e11-48ed-b3ab-a3369061b8ea)
 
-7. 
+7. Then edit the first page -
+![image](https://github.com/sabarna17/btp-basics/assets/39834671/5049160c-73cb-4756-bfcb-1a577156b235)
+
+- Navigate to **PRCriticalityList>Table>Columns** Then Click on ` + ` button and select **Add Basic Column**
+- Then select `Urgency/descr` and click **Add**
+- Then change the Label to `PR Criticality` and click on the 🌐 icon
