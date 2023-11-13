@@ -70,6 +70,29 @@ Create a backend data model to store the data.
    ```
 8. Now Execute the ODATA entities and see the outptut `/odata/v4/processor/PRCriticality`, `/odata/v4/processor/Urgency`
 
+9. Now enable draft functionality. The easy way to implement this is add the code `annotate PRCriticality with @odata.draft.enabled;` in the file `service.cds`.
+   Then goto `schema.cds` and replace with the below code -
+   ```
+   using { cuid, managed, sap.common.CodeList } from '@sap/cds/common';
+   namespace sap.swift.purchasing;
+   entity PRCriticality: cuid, managed{
+     PurchaseRequisition     : String(10) ;
+     PurchaseRequisitionText: String(40);
+     Plant: String(4);
+     PurchasingOrganization: String(4);
+     PurchasingGroup: String(3);
+     Urgency: Association to Urgency;
+   }
+   
+   entity Urgency : CodeList {
+     key code: String enum {
+       high = 'H';
+       medium = 'M';
+       low = 'L';
+     };
+   }
+   ``` 
+
 ## Design UI for the CAP application
 **Overview** 
 Create UI patterns and use predefined floorplans
