@@ -97,3 +97,7 @@ You need to choose the option with `cds watch`
 - Navigate to **PRCriticalityList>Table>Columns** Then Click on ` + ` button and select **Add Basic Column**
 - Then select `Urgency/descr` and click **Add**
 - Then change the Label to `PR Criticality` and click on the 🌐 icon
+Now goto the app `/prcriticality/webapp/index.html?sap-ui-xx-viewCache=false` and here you can see the change in the Column header -
+![image](https://github.com/sabarna17/btp-basics/assets/39834671/ef020d29-4aea-44fc-8d22-025ec4152b0f)
+
+8. Now 
