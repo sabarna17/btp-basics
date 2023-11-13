@@ -123,4 +123,11 @@ You need to choose the option with `cds watch`
 Now goto the app `/prcriticality/webapp/index.html?sap-ui-xx-viewCache=false` and here you can see the change in the Column header -
 ![image](https://github.com/sabarna17/btp-basics/assets/39834671/ef020d29-4aea-44fc-8d22-025ec4152b0f)
 
-8. Now 
+8. Now navigate to the Object Page and add Sections
+   ![image](https://github.com/sabarna17/btp-basics/assets/39834671/f93b852e-7e38-4404-b23a-1669052f7e9e)
+
+9. You can change the fields settings to mark editable and the set the criticality to the List output.
+   ![image](https://github.com/sabarna17/btp-basics/assets/39834671/0dc7b65b-5654-491f-8da6-9a88575ebf60)
+Now right click on the main application and click on preview to launch the application.
+![image](https://github.com/sabarna17/btp-basics/assets/39834671/d72dff69-0c5b-45ec-b762-d69606bfbc35)
+
