@@ -2,7 +2,7 @@ This is a Sample CAPM Project in SAP BTP landscape for Clound Foundry Environmen
 
 - [Create CAPm Backend](https://github.com/sabarna17/btp-basics/blob/main/capm/readme.md#create-capm-backend)
 - [Design UI for the CAP application](https://github.com/sabarna17/btp-basics/blob/main/capm/readme.md#design-ui-for-the-cap-application)
-- [Add Custom Logics in CAPM Events]
+- [Add Custom Logics in CAPM Events](https://github.com/sabarna17/btp-basics/blob/main/capm/readme.md#add-custom-logics-in-capm-events)
 - Deploy your application in BTP 
 
 ## Create CAPM backend:
@@ -142,9 +142,10 @@ The Application screens are -
 
 ## Add Custom Logics in CAPM Events
 1. Create a new file `service.js` under the folder `srv`
+   
    ![image](https://github.com/sabarna17/btp-basics/assets/39834671/77bb9f23-1df4-433b-adcf-daa05c128ad8)
 
-2. Add below logic -
+3. Add below logic -
    ```js
    const cds = require('@sap/cds')
    class ProcessorService extends cds.ApplicationService {
