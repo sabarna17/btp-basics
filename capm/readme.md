@@ -23,8 +23,8 @@ entity Urgency : CodeList {
       medium = 'M'; 
       low = 'L'; 
   };
-}
-  ```
+}```
+
 3. Then create a new file `service.cds` in the folder `srv` and add the below code:
    ```using { sap.swift.purchasing as my } from '../db/schema';
 
