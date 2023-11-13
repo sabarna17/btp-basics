@@ -1,5 +1,9 @@
 This is a Sample CAPM Project in SAP BTP landscape for Clound Foundry Environment -
 
+### - Create CAPm Backend
+### - Design UI for the CAP application
+### - Add S4 HANA onpremise ODATA
+### - Deploy your application in BTP 
 
 ## Create CAPM backend:
 1. Create a blank CAPM Template using `cds init purchase-req-importance`
@@ -37,7 +41,7 @@ This is a Sample CAPM Project in SAP BTP landscape for Clound Foundry Environmen
 ![image](https://github.com/sabarna17/btp-basics/assets/39834671/d45d41ca-ea52-4d44-8a3b-3236701649f5)
  
 5. Next use the code `cds watch` and you will be able to see the
-   ```cmd
+   ```bash
    /> successfully deployed to in-memory database.
    [cds] - using authentication: { kind: 'mocked' } 
    [cds] - serving ProcessorService { path: '/odata/v4/processor' }
@@ -61,5 +65,5 @@ This is a Sample CAPM Project in SAP BTP landscape for Clound Foundry Environmen
    10000001,,1007,,103,M
    10000010,,1000,,127,L
    ```
-8. Now Execute the ODATA services and see the outptut `/odata/v4/processor/PRCriticality`, `/odata/v4/processor/Urgency`
-9. 
+8. Now Execute the ODATA entities and see the outptut `/odata/v4/processor/PRCriticality`, `/odata/v4/processor/Urgency`
+
