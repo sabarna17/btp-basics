@@ -38,13 +38,11 @@ This is a Sample CAPM Project in SAP BTP landscape for Clound Foundry Environmen
  
 5. Next use the code `cds watch` and you will be able to see the
    ```
-   /> successfully deployed to in-memory database. 
-
-[cds] - using authentication: { kind: 'mocked' } 
-
-[cds] - serving ProcessorService { path: '/odata/v4/processor' }
-
-[cds] - server listening on { url: 'http://localhost:4004' }
-[cds] - launched at 11/13/2023, 1:22:52 PM, version: 7.3.1, in: 1.216s
-[cds] - [ terminate with ^C ]
+   /> successfully deployed to in-memory database.
+   [cds] - using authentication: { kind: 'mocked' } 
+   [cds] - serving ProcessorService { path: '/odata/v4/processor' }
+   [cds] - server listening on { url: 'http://localhost:4004' }
+   [cds] - launched at 11/13/2023, 1:22:52 PM, version: 7.3.1, in: 1.216s
+   [cds] - [ terminate with ^C ]
    ```
+6. This 
