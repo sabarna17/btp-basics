@@ -184,7 +184,9 @@ Try to edit a single entry and save it directly, you can see the Purchase Requis
 Now you will be able to see a new file created, marked with an arrow. Also use the command `sqlite3 my.sqlite .dump` to see the sql operation dumps.
 ![image](https://github.com/sabarna17/btp-basics/assets/39834671/9d318b93-3096-44d6-9e38-48b310d40375)
 
-3. Add the below code in `package.json`:
+3. Use the script `cds add approuter` to add the approuter to your application.
+
+4. Add the below code in `package.json`:
    ```
    "cds": {
     "requires": {
@@ -205,16 +207,15 @@ Now you will be able to see a new file created, marked with an arrow. Also use t
     }
    ```
 
-4. Install the npm packages to remove the dependencies using command `npm i passport sqlite @sap/xssec`
+5. Install the npm packages to remove the dependencies using command `npm i passport sqlite @sap/xssec`
 
-The next step is deploying your application to the SAP BTP Cloud Foundry Environment.
 
-4. The api endpoint for CF environment can be found in BTP Cockpit -
+The next step is deploying your application to the SAP BTP Cloud Foundry Environment. The api endpoint for CF environment can be found in BTP Cockpit -
 
 ![image](https://github.com/sabarna17/btp-basics/assets/39834671/7c82c628-eafa-4618-bfea-adf9a7b126fc)
 
-5. Use command `cf login -a https://api.cf.us10-001.hana.ondemand.com/` in BAS terminal.
-6. Then enter Email ID and password and press enter. Then the below details will appear.
+6. Use command `cf login -a https://api.cf.us10-001.hana.ondemand.com/` in BAS terminal.
+7. Then enter Email ID and password and press enter. Then the below details will appear.
 ![image](https://github.com/sabarna17/btp-basics/assets/39834671/2c777ace-d812-450f-bf86-9e4900a90745)
-7. Use the command `cds add cf-manifest` to add a manifest file for your CAPM Project.
-8. Then change the file path to `./` and remove the properties - `serices` and from the terminal execute `cf push`
+8. Use the command `cds add cf-manifest` to add a manifest file for your CAPM Project.
+9. Then change the file path to `./` and remove the properties - `serices` and from the terminal execute `cf push`
