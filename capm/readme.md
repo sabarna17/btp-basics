@@ -2,7 +2,7 @@ This is a Sample CAPM Project in SAP BTP landscape for Clound Foundry Environmen
 
 - [Create CAPm Backend](https://github.com/sabarna17/btp-basics/blob/main/capm/readme.md#create-capm-backend)
 - [Design UI for the CAP application](https://github.com/sabarna17/btp-basics/blob/main/capm/readme.md#design-ui-for-the-cap-application)
-- Add Custom Logics in CAPM Events
+- [Add Custom Logics in CAPM Events]
 - Deploy your application in BTP 
 
 ## Create CAPM backend:
@@ -132,10 +132,38 @@ Now right click on the main application and click on preview to launch the appli
 ![image](https://github.com/sabarna17/btp-basics/assets/39834671/d72dff69-0c5b-45ec-b762-d69606bfbc35)
 
 The Application screens are - 
-**List Page - **
+
+**List Page**
 ![image](https://github.com/sabarna17/btp-basics/assets/39834671/bee49ae0-9c5c-4f37-af3f-ecb2386636de)
 
-**Object Page - **
+**Object Page**
 ![image](https://github.com/sabarna17/btp-basics/assets/39834671/f2d97c83-04f2-49ee-899b-7a5a5be93de5)
 
 
+## Add Custom Logics in CAPM Events
+1. Create a new file `service.js` under the folder `srv`
+   ![image](https://github.com/sabarna17/btp-basics/assets/39834671/77bb9f23-1df4-433b-adcf-daa05c128ad8)
+
+2. Add below logic -
+   ```js
+   const cds = require('@sap/cds')
+   class ProcessorService extends cds.ApplicationService {
+     init() {
+        this.before(["CREATE","UPDATE"], "PRCriticality", (req) => this.onUpdate(req.data));
+        return super.init();
+    }
+    
+    async onUpdate (data) {
+        const PurchaseRequisitions = Array.isArray(data) ? data : [data];
+        PurchaseRequisitions.forEach((PurchaseRequisition) => {
+            if(PurchaseRequisition){
+                PurchaseRequisition.PurchaseRequisitionText = 'Hello'
+            }
+        });
+      }    
+    }
+   module.exports = ProcessorService;
+   ```
+This above logic will default the Purchase Requisition description while changing / adding the entry.
+Try to edit a single entry and save it directly, you can see the Purchase Requisition Text will be defaulted as below - 
+![image](https://github.com/sabarna17/btp-basics/assets/39834671/e32d5822-279b-4f89-a21a-9dce5eae9ece)
