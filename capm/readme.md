@@ -36,3 +36,15 @@ This is a Sample CAPM Project in SAP BTP landscape for Clound Foundry Environmen
 4. Now use the script `cds add data` to create dummy csv files. Once executed, the below files will be created automatically:
 ![image](https://github.com/sabarna17/btp-basics/assets/39834671/d45d41ca-ea52-4d44-8a3b-3236701649f5)
  
+5. Next use the code `cds watch` and you will be able to see the
+   ```
+   /> successfully deployed to in-memory database. 
+
+[cds] - using authentication: { kind: 'mocked' } 
+
+[cds] - serving ProcessorService { path: '/odata/v4/processor' }
+
+[cds] - server listening on { url: 'http://localhost:4004' }
+[cds] - launched at 11/13/2023, 1:22:52 PM, version: 7.3.1, in: 1.216s
+[cds] - [ terminate with ^C ]
+   ```
