@@ -219,3 +219,6 @@ The next step is deploying your application to the SAP BTP Cloud Foundry Environ
 ![image](https://github.com/sabarna17/btp-basics/assets/39834671/2c777ace-d812-450f-bf86-9e4900a90745)
 8. Use the command `cds add cf-manifest` to add a manifest file for your CAPM Project.
 9. Then change the file path to `./` and remove the properties - `serices` and from the terminal execute `cf push`
+10. You can also manage the Route from the BTP Cockpit -
+    ![image](https://github.com/sabarna17/btp-basics/assets/39834671/5c120d51-ae1c-4f23-8340-7fb5322bcb2d)
+
