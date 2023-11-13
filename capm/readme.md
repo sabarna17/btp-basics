@@ -80,6 +80,6 @@ Create UI patterns and use predefined floorplans
    ![image](https://github.com/sabarna17/btp-basics/assets/39834671/02e90b9d-6459-4c3e-b972-29a2a22a838d)
 4. Set `PRCriticality` as Main Entity.
 5. Then set the below attributes and click on **Finish**
-   ![image](https://github.com/sabarna17/btp-basics/assets/39834671/db57d5f2-a27b-4bf8-ae8b-39157e62a0b8)
+  ![image](https://github.com/sabarna17/btp-basics/assets/39834671/db57d5f2-a27b-4bf8-ae8b-39157e62a0b8)
 
 Now you have a cool low-code environment to develop a business-standard Fiori UI application.
