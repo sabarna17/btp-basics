@@ -32,3 +32,7 @@ This is a Sample CAPM Project in SAP BTP landscape for Clound Foundry Environmen
       entity Urgency as projection on my.Urgency;
     }
   ```
+
+4. Now use the script `cds add data` to create dummy csv files. Once executed, the below files will be created automatically:
+![image](https://github.com/sabarna17/btp-basics/assets/39834671/d45d41ca-ea52-4d44-8a3b-3236701649f5)
+ 
