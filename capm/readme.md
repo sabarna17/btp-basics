@@ -58,7 +58,7 @@ This is a Sample CAPM Project in SAP BTP landscape for Clound Foundry Environmen
     M;Medium
     L;Low
    ```
-  for file `sap.swift.purchasing-PRCriticality.csv` -
+   for file `sap.swift.purchasing-PRCriticality.csv` -
    ```csv
    PurchaseRequisition,PurchaseRequisitionText,Plant,PurchasingOrganization,PurchasingGroup,Urgency_code
    10000000,,1007,1000,103,H
