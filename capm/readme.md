@@ -205,6 +205,8 @@ Now you will be able to see a new file created, marked with an arrow. Also use t
     }
    ```
 
+4. Install the npm packages to remove the dependencies using command `npm i passport sqlite @sap/xssec`
+
 The next step is deploying your application to the SAP BTP Cloud Foundry Environment.
 
 4. The api endpoint for CF environment can be found in BTP Cockpit -
