@@ -1,9 +1,9 @@
 This is a Sample CAPM Project in SAP BTP landscape for Clound Foundry Environment -
 
-### - Create CAPm Backend
-### - Design UI for the CAP application
-### - Add S4 HANA onpremise ODATA
-### - Deploy your application in BTP 
+- Create CAPm Backend
+- Design UI for the CAP application
+- Add S4 HANA onpremise ODATA
+- Deploy your application in BTP 
 
 ## Create CAPM backend:
 1. Create a blank CAPM Template using `cds init purchase-req-importance`
