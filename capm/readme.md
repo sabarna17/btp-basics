@@ -179,6 +179,7 @@ Try to edit a single entry and save it directly, you can see the Purchase Requis
    `npm add @cap-js/sqlite -D`
 2. Then execute the below command to deploy the data in local sqlitedb -
    `cds deploy --to sqlite:my.sqlite`
+3. Use the command `npm i passport @sap/xssec` to install depencencies.
 Now you will be able to see a new file created, marked with an arrow. Also use the command `sqlite3 my.sqlite .dump` to see the sql operation dumps.
 ![image](https://github.com/sabarna17/btp-basics/assets/39834671/9d318b93-3096-44d6-9e38-48b310d40375)
 The next step is deploying your application to the SAP BTP Cloud Foundry Environment.
