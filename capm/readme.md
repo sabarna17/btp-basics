@@ -205,6 +205,7 @@ Now you will be able to see a new file created, marked with an arrow. Also use t
    ```
 
 The next step is deploying your application to the SAP BTP Cloud Foundry Environment.
+
 4. The api endpoint for CF environment can be found in BTP Cockpit -
 
 ![image](https://github.com/sabarna17/btp-basics/assets/39834671/7c82c628-eafa-4618-bfea-adf9a7b126fc)
