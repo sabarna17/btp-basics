@@ -1,9 +1,10 @@
-![image](https://github.com/sabarna17/btp-basics/assets/39834671/4e1b1e39-c8e4-415f-aad8-89ba452a03c0)This is a Sample CAPM Project
+This is a Sample CAPM Project in SAP BTP landscape for Clound Foundry Environment -
+
 
 ## Create CAPM backend:
 1. Create a blank CAPM Template using `cds init purchase-req-importance`
 2. Create a file `schema.cds` in the folder `db` and add the below script
-```
+  ```
 using { sap.common.CodeList } from '@sap/cds/common';
 namespace sap.swift.purchasing;
 
@@ -23,4 +24,12 @@ entity Urgency : CodeList {
       low = 'L'; 
   };
 }
-```
+  ```
+3. Then create a new file `service.cds` in the folder `srv` and add the below code:
+   ```using { sap.swift.purchasing as my } from '../db/schema';
+
+service ProcessorService { 
+  entity PRCriticality as projection on my.PRCriticality;
+  entity Urgency as projection on my.Urgency;
+}
+   ```
