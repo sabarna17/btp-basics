@@ -83,3 +83,9 @@ Create UI patterns and use predefined floorplans
   ![image](https://github.com/sabarna17/btp-basics/assets/39834671/db57d5f2-a27b-4bf8-ae8b-39157e62a0b8)
 
 Now you have a cool low-code environment to develop a business-standard Fiori UI application.
+You can try to click on Preview and see the sample application.
+![image](https://github.com/sabarna17/btp-basics/assets/39834671/d14a0bed-3a45-4a00-af09-841ed4e5e40a)
+
+You need to choose the option with `cds watch`
+
+
