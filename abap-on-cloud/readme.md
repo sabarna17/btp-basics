@@ -84,11 +84,11 @@ This is a secret file:
    ![image](https://github.com/sabarna17/btp-basics/assets/39834671/5e79529e-f505-498e-9089-74a3091959a4)
 
 4. Follow to the last and click on publish. Once your ODATA artifacts are ready, you will see below screen:
-5. 
+ 
    ![image](https://github.com/sabarna17/btp-basics/assets/39834671/5bddd5d3-7683-4b4d-aa54-11acf49a4a92)
 
-6. Now click on preview to see the application. The RAP application will be launched.
-7. 
+5. Now click on preview to see the application. The RAP application will be launched.
+ 
    ![image](https://github.com/sabarna17/btp-basics/assets/39834671/82c8f548-9aae-4156-b717-29320f0c2e3e)
 
 **Note:**
