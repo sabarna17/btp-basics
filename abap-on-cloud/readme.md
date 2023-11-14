@@ -46,6 +46,7 @@ This is a secret file:
 }
 ```
 2. Then use eclipse editor to configure the ABAP environment -
+   
    ![image](https://github.com/sabarna17/btp-basics/assets/39834671/9c73b333-319f-47e7-9a23-0afbc1476185)
 
    Then select the below option and click next. Then copy paste the service key created from step 1.
