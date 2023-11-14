@@ -49,6 +49,7 @@ This is a secret file:
    ![image](https://github.com/sabarna17/btp-basics/assets/39834671/9c73b333-319f-47e7-9a23-0afbc1476185)
 
    Then select the below option and click next. Then copy paste the service key created from step 1.
+   
    ![image](https://github.com/sabarna17/btp-basics/assets/39834671/875628e6-88bd-4836-bedc-3bf095c2a07f)
 
 ## RAP development
@@ -74,15 +75,19 @@ This is a secret file:
    }
    ```
 2. Then right click on the ABAP Table and select the below option and click next:
+   
    ![image](https://github.com/sabarna17/btp-basics/assets/39834671/d3cf5a8c-1e22-4e4d-832e-55660132f136)
 
 3. Select the below option:
+   
    ![image](https://github.com/sabarna17/btp-basics/assets/39834671/5e79529e-f505-498e-9089-74a3091959a4)
 
 4. Follow to the last and click on publish. Once your ODATA artifacts are ready, you will see below screen:
+5. 
    ![image](https://github.com/sabarna17/btp-basics/assets/39834671/5bddd5d3-7683-4b4d-aa54-11acf49a4a92)
 
-5. Now click on preview to see the application. The RAP application will be launched.
+6. Now click on preview to see the application. The RAP application will be launched.
+7. 
    ![image](https://github.com/sabarna17/btp-basics/assets/39834671/82c8f548-9aae-4156-b717-29320f0c2e3e)
 
 **Note:**
