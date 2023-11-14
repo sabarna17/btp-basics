@@ -6,5 +6,4 @@ What you will get Here:
 - [CAPM-SQLite Development in SAP BTP CF Environment](https://github.com/sabarna17/btp-basics/blob/main/capm/readme.md)
 - [ABAP-Cloud  Development in SAP BTP CF Environment](https://github.com/sabarna17/btp-basics/blob/main/abap-on-cloud/readme.md)
 
-Useful services in BTP - 
 
