@@ -1,6 +1,6 @@
 ---
 applications:
-- name: api-duo
+- name: btp-python
   memory: 256MB
   disk_quota: 512MB
   random-route: false
