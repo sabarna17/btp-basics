@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2023 sabarna17[Sabarna Chatterjee](https://people.sap.com/sabarna.chatterjee)
+Copyright (c) 2023 sabarna17 ([Sabarna Chatterjee](https://people.sap.com/sabarna.chatterjee))
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
