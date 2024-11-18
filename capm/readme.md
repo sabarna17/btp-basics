@@ -43,6 +43,7 @@ Create a backend data model to store the data.
 
 4. Now use the script `cds add data` to create dummy csv files. Choose table type as  `Responsive`.
 Once executed, the below files will be created automatically:
+
 ![image](https://github.com/sabarna17/btp-basics/assets/39834671/d45d41ca-ea52-4d44-8a3b-3236701649f5)
  
 5. Next use the code `cds watch` and you will be able to see the
